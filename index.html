@@ -1,66 +1,97 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CBT KORWIL SINE</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8fafc;
-        }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        .btn-kelas {
-            transition: all 0.2s ease;
-        }
-        .btn-kelas:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.25);
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aplikasi Tidak Didukung</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    max-width: 420px;
+    width: 100%;
+    padding: 36px 28px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+  }
+  .icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #fef2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+  }
+  h1 {
+    font-size: 20px;
+    color: #1a1a1a;
+    margin: 0 0 12px;
+  }
+  p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 8px;
+  }
+  .steps {
+    text-align: left;
+    background: #f7f8fa;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  .steps li { margin-bottom: 8px; }
+  .steps li:last-child { margin-bottom: 0; }
+  .btn {
+    display: inline-block;
+    margin-top: 8px;
+    background: #2a5298;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 100%;
+  }
+  .btn:active { opacity: 0.85; }
+  .footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+  }
+</style>
 </head>
-<body class="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-blue-50 to-indigo-100">
-
-    <div class="max-w-md w-full glass-card rounded-3xl shadow-2xl p-10 text-center transition-all duration-300">
-        <div class="mb-8 flex justify-center">
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lambang_Kabupaten_Ngawi_%28svg%29.svg/1280px-Lambang_Kabupaten_Ngawi_%28svg%29.svg.png"
-                alt="Logo Kabupaten Ngawi"
-                class="h-40 w-auto drop-shadow-xl"
-                onerror="this.src='https://via.placeholder.com/150?text=Logo+Ngawi'"
-            >
-        </div>
-
-        <h1 class="text-3xl font-bold text-gray-800 mb-2 leading-tight">
-            CBT KORWIL SINE
-        </h1>
-        <p class="text-base text-gray-500 mb-8">
-            Silakan pilih kelas untuk melanjutkan ke halaman ujian
-        </p>
-
-        <div class="h-px bg-gray-200 w-full mb-8"></div>
-
-        <div class="flex flex-col gap-4">
-            <a href="https://korwilsine.cloud/ujian/login"
-               class="btn-kelas w-full py-4 rounded-2xl bg-indigo-600 text-white font-semibold text-lg shadow-md hover:bg-indigo-700">
-                KELAS 4
-            </a>
-            <a href="https://ujian.soalku.id/"
-               class="btn-kelas w-full py-4 rounded-2xl bg-white border-2 border-indigo-600 text-indigo-700 font-semibold text-lg shadow-md hover:bg-indigo-50">
-                KELAS 5 &amp; 6
-            </a>
-        </div>
-
-        <p class="text-xs text-gray-400 mt-8">
-            Pastikan Anda memilih kelas dengan benar sebelum melanjutkan.
-        </p>
+<body>
+  <div class="card">
+    <div class="icon">⚠️</div>
+    <h1>Aplikasi Sudah Tidak Didukung</h1>
+    <p>Versi aplikasi yang Anda gunakan saat ini sudah tidak didukung lagi dan mungkin tidak berjalan dengan baik.</p>
+    <div class="steps">
+      <ol>
+        <li>Uninstal aplikasi yang lama dari perangkat Anda.</li>
+        <li>Unduh versi terbaru melalui tombol di bawah ini.</li>
+        <li>Instal ulang dan login seperti biasa.</li>
+      </ol>
     </div>
-
+    <a class="btn" href="https://ujianku.korwilsine.web.id/unduhan">Unduh Versi Terbaru</a>
+    <div class="footer">KORWIL SINE</div>
+  </div>
 </body>
 </html>
